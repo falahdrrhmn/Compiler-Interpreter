@@ -29,6 +29,6 @@
         <li><a href="#installation">Contoh contoh</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Perbandingan</a></li>
+    <li><a href="#usage">Perbandingan antara Compiler & Interpreter</a></li>
   </ol>
 </details>
