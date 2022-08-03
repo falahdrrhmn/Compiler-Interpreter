@@ -32,3 +32,6 @@
     <li><a href="#usage">Perbandingan antara Compiler & Interpreter</a></li>
   </ol>
 </details>
+
+
+### Compiler
