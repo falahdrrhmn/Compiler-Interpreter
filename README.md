@@ -68,6 +68,7 @@ biasanya yg make compiler bahasa pemrograman old
 <br>
 
 <div id="inter"></div>
+
 ### Interpreter
 
 Yang kedua adalah metode interpret. klo interpret maka prosesnya adalah interpreter. Gimana cara kerja interpreter? kalo di compiler di ubah jadi file .exe
@@ -83,6 +84,8 @@ python, javascript, etc
 
 <div id="perbedaan"></div>
 <h3>Perbedaan antara Compiler & Interpreter</h3>
+
+<img width="639" alt="image" src="https://user-images.githubusercontent.com/92344349/182743824-52a0c7a9-1c0e-4585-bd27-68eb2a66c42e.png">
 
 
 <div align="center">
