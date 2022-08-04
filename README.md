@@ -29,7 +29,7 @@
       </ul>
     </li>
     <li><a href="#perbedaan">Perbedaan antara Compiler & Interpreter</a></li>
-	<li><a href="#usage">Hybrid (JVM)</a></li>
+	<li><a href="#hyb">Hybrid (JVM)</a></li>
   </ol>
 </details>
 
