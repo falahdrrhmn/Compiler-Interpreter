@@ -52,7 +52,6 @@ https://www.ekrut.com/media/compiler
 biasanya yg make compiler bahasa pemrograman old
 
 1. Visual Basic
-	
 	Visual Basic (VB) bahasa pemgrograman generasi ketiga dari microsoft. Detailnya baca <a href="https://id.wikipedia.org/wiki/Visual_Basic">disini</a>
 
 2. C+
