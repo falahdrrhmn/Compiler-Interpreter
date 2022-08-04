@@ -92,7 +92,11 @@ python, javascript, etc
 	<a href="https://medium.com/@larasn_/mengenal-compiler-dan-interpreter-30610c6df554">(Source)</a>
 </div>
 
-
+<div id="hyb"></div>
+<h3>Hybrid (JVM)</h3>
+hybrid/ JVM (java virtual machine) Jadi hybrid itu gabungan dari compiler dan interpreter, kalo di run. filenya bakal dicompile dulu tapi bukan file .exe 
+abis di compile file kita gajadi .exe tapi bytecode dalam kasus dvm itu ekstensinya menjadi .class
+setelahh diubah jadi bytecode baru komputer melakukan eksekusi. Yg make ini java
 
 
 
