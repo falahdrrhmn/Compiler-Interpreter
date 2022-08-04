@@ -74,14 +74,9 @@ kalo di interpreter file yg sama akan diduplikat. Terus duplikatnya dijalankan h
 <h3>Contoh Interpreter</h3>
 python, javascript, etc
 
-
-<div id="com"></div>
-### Compiler
-Yang pertama adalah metode compile, klo compile maka prosesnya adalah compiler. compiler itu program yang bertugas buat ngonversi source code yang kita buat jadi bahasa mesin. Kalo ada kode yang salah, compiler bakal ngirim pesan error kepada kita dan harus dibenerin. Jika gak, ya bakal nampilin berkas executable atau .exe biasanya. Terus kalo misalnya dikirim ke laptop lain, maka dikirim dengan format .exe 
-Nah abis itu yang terjadi adalah program bisa dijalanin dikomputer lain, tapi komputer lain gatau source codenya, jadi source codenya tetep ada dilaptop programmer yg bikin. btw didalem compiler itu juga ada 2 fase dalam proses konversinya, yakni fase analisis, dan fase sintesis kalo mau detailnya buka link ini
-https://www.ekrut.com/media/compiler
-
-
+<br>
+<br>
+<br>
 
 <div id="perbedaan"></div>
 <h3>Perbedaan antara Compiler & Interpreter</h3>
