@@ -39,7 +39,7 @@ Bahasa mesin yang dapat dipahami oleh komputer yg identik dg angka 0 dan 1. Sebe
 Terus gimana bahasa pemrograman bisa dipahamin sama komputer? Jadi waktu programmer selesai bikin source code abis itu dirun atau dijalankan. Sebenernya itu terjadi proses konversi. Nah konversinya itu dibedain jadi 2. Yakni compile dan Interpret. Utk ngubah source code jadi bahasa mesin kita butuh compiler dan interpreter.
 
 ### Compiler
-<div id="#com"></div>
+<div id="com"></div>
 Yang pertama adalah metode compile, klo compile maka prosesnya adalah compiler. compiler itu program yang bertugas buat ngonversi source code yang kita buat jadi bahasa mesin. Kalo ada kode yang salah, compiler bakal ngirim pesan error kepada kita dan harus dibenerin. Jika gak, ya bakal nampilin berkas executable atau .exe biasanya. Terus kalo misalnya dikirim ke laptop lain, maka dikirim dengan format .exe 
 Nah abis itu yang terjadi adalah program bisa dijalanin dikomputer lain, tapi komputer lain gatau source codenya, jadi source codenya tetep ada dilaptop programmer yg bikin. btw didalem compiler itu juga ada 2 fase dalam proses konversinya, yakni fase analisis, dan fase sintesis kalo mau detailnya buka link ini
 https://www.ekrut.com/media/compiler
@@ -47,7 +47,7 @@ https://www.ekrut.com/media/compiler
 
 
 <h3>Contoh Compiler</h3>
-<div id="#contohcom"></div>
+<div id="contohcom"></div>
 biasanya yg make compiler bahasa pemrograman old
 
 1. Visual Basic <br>
@@ -66,13 +66,13 @@ biasanya yg make compiler bahasa pemrograman old
 <br>
 
 ### Interpreter
-<div id="#inter"></div>
+<div id="inter"></div>
 Yang kedua adalah metode interpret. klo interpret maka prosesnya adalah interpreter. Gimana cara kerja interpreter? kalo di compiler di ubah jadi file .exe
 kalo di interpreter file yg sama akan diduplikat. Terus duplikatnya dijalankan habis itu dieksekusi. udah gitu aja
 
 
 <h3>Contoh Interpreter</h3>
-<div id="#contohinter"></div>
+<div id="contohinter"></div>
 python, javascript, etc
 
 
