@@ -1,4 +1,3 @@
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <h1 align="center">Perbedaan Antara Compiler & Interpreter</h1>
@@ -16,33 +15,33 @@
   <summary>List penjelasan</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Compiler</a>
+      <a href="#com">Compiler</a>
       <ul>
         <li><a href="#com">Cara kerja compiler</a></li>
         <li><a href="#contohcom">Contoh compiler</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Interpreter</a>
+      <a href="#inter">Interpreter</a>
       <ul>
-        <li><a href="#prerequisites">Cara kerja contoh</a></li>
-        <li><a href="#installation">Contoh contoh</a></li>
+        <li><a href="#inter">Cara kerja interpreter</a></li>
+        <li><a href="#contohinter">Contoh interpreter</a></li>
       </ul>
     </li>
     <li><a href="#usage">Perbandingan antara Compiler & Interpreter</a></li>
+	<li><a href="#usage">Hybrid (JVM)</a></li>
   </ol>
 </details>
 
 ### Pendahuluan
-Manusia tidak dapat berkomunikasi dengan bahasa komputer, akan tetapi bahasa pemrograman dapat berinteraksi dengan komputer. Jadi manusia memanfaatkan bahasa pemrograman untuk berinteraksi dengan komputer. Intruksi/code yang kita berikan akan diproses di CPU (central processing unit). nah compiler atau interpreter itu paan? jadi bahasa pemrograman itu bakal ngelakuin proses sebelum bisa dipahami oleh komputer karenaa ya itu, komputer cuma paham bahasa mesin 
-Bahasa mesin yang dapat dipahami oleh komputer identik dengan angka 0 dan 1. sebenernya bisa kalo mau belajar tapi susah banget weh. selain itu juga bahasa mesin juga beda-beda tergantung dari prosessor, gile gak tu. Jadi tiap prosessor bahasa mesinnya beda2
-Terus gimana bahasa pemrograman bisa dipahamin sama komputer? Jadi waktu programmer selesai bikin source code abis itu dirun atau dijalankan. Sebenernya itu terjadi proses konversi. Nah konversinya itu dibedain jadi 2. Yakni compile dan Interpret. Utk ngubah source code jadi bahasa mesin kita butuh compiler dan interpreter 
+Jadi gini intinya compiler sama interpreter itu fungsinya sama2 nerjemahin codingan yg udah dibuat ke bahasa mesin, karena apa? Manusia gak bisa komunikasi dg bahasa komputer, akan tetapi bahasa pemrograman bisa berinteraksi dengan komputer. Jadi manusia memanfaatkan bahasa pemrograman untuk berinteraksi dengan komputer. Intruksi/code yang kita berikan akan diproses di CPU (central processing unit). nah compiler atau interpreter itu paan? Jadi intruksi/code itu bakal diproses sebelum bisa dipahami oleh komputer karenaa ya itu, komputer cuma paham bahasa mesin 
+Bahasa mesin yang dapat dipahami oleh komputer yg identik dg angka 0 dan 1. Sebenernya manusia bisa kalo mau belajar bhs komputer tp susah banget weh. selain itu juga bahasa mesin juga beda-beda tergantung dari prosessor, gile gak tu. Jadi tiap prosessor bahasa mesinnya beda2
+Terus gimana bahasa pemrograman bisa dipahamin sama komputer? Jadi waktu programmer selesai bikin source code abis itu dirun atau dijalankan. Sebenernya itu terjadi proses konversi. Nah konversinya itu dibedain jadi 2. Yakni compile dan Interpret. Utk ngubah source code jadi bahasa mesin kita butuh compiler dan interpreter.
 
 ### Compiler
 <div id="#com"></div>
-Yang pertama adalah metode compile, klo compile maka prosesnya adalah compiler. compiler itu program yang bertugas buat ngonversi source code yang kita buat jadi bahasa mesin. Kalo ada kode yang salah, compiler bakal ngirim pesan error kepada kita dan harus dibenerin. Jika gak, ya bakal nampilin berkas executable atau .exe biasanya.
-Nah terus kalo misalnya dikirim ke laptop lain dengan format .exe 
-Nah abis itu yang terjadi adalah program bisa dijalanin dikomputer lain, tapi komputer lain gatau source codenya, jadi source codenya ada dilaptop programmer yg bikin. btw didalem compiler itu juga ada 2 fase dalam proses konversinya, yakni fase analisis, dan fase sintesis kalo mau detailnya buka link ini
+Yang pertama adalah metode compile, klo compile maka prosesnya adalah compiler. compiler itu program yang bertugas buat ngonversi source code yang kita buat jadi bahasa mesin. Kalo ada kode yang salah, compiler bakal ngirim pesan error kepada kita dan harus dibenerin. Jika gak, ya bakal nampilin berkas executable atau .exe biasanya. Terus kalo misalnya dikirim ke laptop lain, maka dikirim dengan format .exe 
+Nah abis itu yang terjadi adalah program bisa dijalanin dikomputer lain, tapi komputer lain gatau source codenya, jadi source codenya tetep ada dilaptop programmer yg bikin. btw didalem compiler itu juga ada 2 fase dalam proses konversinya, yakni fase analisis, dan fase sintesis kalo mau detailnya buka link ini
 https://www.ekrut.com/media/compiler
 
 
@@ -54,12 +53,27 @@ biasanya yg make compiler bahasa pemrograman old
 1. Visual Basic <br>
 	Visual Basic (VB) bahasa pemgrograman generasi ketiga dari microsoft. Detailnya baca <a href="https://id.wikipedia.org/wiki/Visual_Basic">disini</a>
 
-2. C+
+2. C & C++ <br>
+	C++ merupakan kompiler multiple pass yang dirancang dengan orientasi terhadap pemrograman sistem. C+ ini tertanam pada perangkat lunak yang terbatas sumber daya dan sistem besar, dengan kinerja, efisiensi, dan fleksibilitas penggunaan sebagai sorotan desainnya.
 
-3. Pascal
+3. Pascal <br>
+	Pascal merupakan bahasa pemrograman imperatif dan prosedural. Pascal dirancang untuk mendorong praktik pemrograman yang baik menggunakan program terstruktur dan penataan data.
 
-4. Fortran
+4. Fortran <br>
+	Fortran termasuk bahasa pemrograman imperatif yang sangat cocok untuk komputasi numerik dan komputasi ilmiah. Bahasa pemrograman ini sudah diaplikasikan selama lebih dari enam dekade di bidang komputasi intensif seperti prediksi cuaca numerik, analisis elemen, dinamika fluida komputasi, geofisika, fisika komputasi, kristalografi, dan kimia komputasi.
+	
+<br>
+<br>
 
+### Interpreter
+<div id="#inter"></div>
+Yang kedua adalah metode interpret. klo interpret maka prosesnya adalah interpreter. Gimana cara kerja interpreter? kalo di compiler di ubah jadi file .exe
+kalo di interpreter file yg sama akan diduplikat. Terus duplikatnya dijalankan habis itu dieksekusi. udah gitu aja
+
+
+<h3>Contoh Interpreter</h3>
+<div id="#contohinter"></div>
+python, javascript, etc
 
 
 
