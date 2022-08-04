@@ -39,6 +39,7 @@ Bahasa mesin yang dapat dipahami oleh komputer yg identik dg angka 0 dan 1. Sebe
 Terus gimana bahasa pemrograman bisa dipahamin sama komputer? Jadi waktu programmer selesai bikin source code abis itu dirun atau dijalankan. Sebenernya itu terjadi proses konversi. Nah konversinya itu dibedain jadi 2. Yakni compile dan Interpret. Utk ngubah source code jadi bahasa mesin kita butuh compiler dan interpreter.
 
 <div id="com"></div>
+
 ### Compiler
 
 Yang pertama adalah metode compile, klo compile maka prosesnya adalah compiler. compiler itu program yang bertugas buat ngonversi source code yang kita buat jadi bahasa mesin. Kalo ada kode yang salah, compiler bakal ngirim pesan error kepada kita dan harus dibenerin. Jika gak, ya bakal nampilin berkas executable atau .exe biasanya. Terus kalo misalnya dikirim ke laptop lain, maka dikirim dengan format .exe 
